@@ -2,7 +2,7 @@
 
 //img addition
 var authorPhoto = document.querySelector('.author-photo');
-authorPhoto.src = '../img/author-photo.png';
+authorPhoto.src = 'img/author-photo.png';
 
 //text insertion
 // var contactH2 = document.querySelector('.contact-h2').textContent = 'Contact me';
@@ -14,10 +14,10 @@ var svgArr = document.querySelectorAll('.svg');
 //SVG insertion in contact session
 console.log(svgArr[0]);
 
-svgArr[0].src = "../svg/phone.svg";
-svgArr[1].src = "../svg/email.svg";
-svgArr[2].src = "../svg/github.svg";
-svgArr[3].src = "../svg/location.svg";
+svgArr[0].src = "svg/phone.svg";
+svgArr[1].src = "svg/email.svg";
+svgArr[2].src = "svg/github.svg";
+svgArr[3].src = "svg/location.svg";
 
 //H2 content - both columns
 var h2Content = document.querySelectorAll('h2');
